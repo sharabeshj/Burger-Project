@@ -14,7 +14,7 @@ const modal = (props) => {
             >
                 {props.children}
             </div>
-            <BackDrop show = {props.show} closeModal = {props.cancelPurchase}/>
+            <BackDrop show = {props.show} close = {props.cancelPurchase}/>
         </Aux>
     )
 }
